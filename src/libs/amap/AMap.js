@@ -1,6 +1,5 @@
 (function (config) {
-    // let base_url = window.location.origin + window.location.pathname
-    const base_url = '.'
+    let base_url = window.location.origin + window.location.pathname
     const _tileUrl = `${base_url}/src/libs/amap/2.0.1`;
     const mapsplugin = `${base_url}/src/libs/amap/mapsplugin.js`
     const init = `${base_url}/src/libs/amap/init.js`
